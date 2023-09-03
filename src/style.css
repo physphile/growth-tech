@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--color-primary: #01c54f;
+	--color-error: #af4b3c;
+	--color-success: #4dbc4f;
+}
+
+.visually-hidden {
+	position: fixed;
+	transform: scale(0);
+}
